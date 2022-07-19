@@ -1,0 +1,19 @@
+1) CREATE TABLE MOBILES (proid int PRIMARY KEY,modelname varchar(20),company varchar(20),connectivity varchar(10),ram varchar(10),rom varchar(10),colour varchar(10),screen varchar(10),
+                      battery varchar(10),processor varchar(10),price int,rating varchar(10));
+2)select * from MOBILES;
+
+3)select * from MOBILES where modelname='note pro';
+
+4)select * from MOBILES where company='mi' order by price;
+
+5)select * from MOBILES where company='mi' order by price;
+
+6)delete from  MOBILES where proid='104';
+
+7)select * from MOBILES where ram='4' and rom='64';
+
+8)alter table MOBILES add purpose varchar(50);
+
+9)update MOBILES set purpose='Social' where modelname='note pro';
+
+
